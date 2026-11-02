@@ -17,10 +17,6 @@ Transita busca hacer más sencillo moverse por Panamá. La app reúne informaci�
 
 Transita está en desarrollo para Android y todavía no está disponible para descarga pública.
 
-## Sobre este repositorio
-
-Este repositorio presenta el proyecto y no contiene el código de la aplicación ni del backend.
-
 ## Créditos
 
 Los datos cartográficos incluyen información de [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Transita es un proyecto independiente y no está afiliado a MiBus ni al Metro de Panamá.

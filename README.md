@@ -1,2 +1,28 @@
-# Public-Transport-App-4Panama
-People often end up using other applications or services to reach their destination—frequently ones that lack a great interface or offer a very generic experience. This project aims to improve upon those aspects by providing a more intuitive tool that allows users to enjoy the journey 🚌🚇🚡.
+# Transita
+
+![Transita — El transporte público de Panamá, en un solo mapa](docs/assets/banner.svg)
+
+**El transporte público de Panamá, en un solo mapa.**
+
+Transita busca hacer más sencillo moverse por Panamá. La app reúne información de rutas y paradas para ayudar a las personas a explorar sus opciones y orientarse durante el recorrido.
+
+## La experiencia
+
+- Explorar rutas y paradas de bus y Metro.
+- Consultar horarios publicados y la información disponible del servicio.
+- Seguir un recorrido y conocer las próximas paradas.
+- Compartir reportes sobre incidencias.
+
+## Estado
+
+Transita está en desarrollo para Android y todavía no está disponible para descarga pública.
+
+## Sobre este repositorio
+
+Este repositorio presenta el proyecto y no contiene el código de la aplicación ni del backend.
+
+## Créditos
+
+Los datos cartográficos incluyen información de [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Transita es un proyecto independiente y no está afiliado a MiBus ni al Metro de Panamá.
+
+Hecho con cariño en Panamá 🇵🇦.

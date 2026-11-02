@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Transita — El transporte público de Panamá, en un solo mapa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071A2F"/>
+      <stop offset="0.55" stop-color="#0A2440"/>
+      <stop offset="1" stop-color="#0D3157"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F1EA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="700" y="34" width="450" height="252" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- Líneas decorativas de la red -->
+  <g opacity="0.16" fill="none" stroke-linecap="round">
+    <path d="M-20 280 C 140 240, 240 300, 380 230 S 620 120, 780 150" stroke="#F5B400" stroke-width="10"/>
+    <path d="M-20 210 C 160 180, 260 240, 430 170 S 650 60, 820 80" stroke="#2B5BFF" stroke-width="8"/>
+    <path d="M40 340 C 180 300, 250 200, 420 210 S 620 280, 760 230" stroke="#0D9488" stroke-width="6"/>
+  </g>
+
+  <!-- Texto principal -->
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" fill="#FFFFFF">
+    <text x="64" y="92" font-size="14" font-weight="700" letter-spacing="5" fill="#F5B400">PANAMÁ</text>
+    <text x="60" y="174" font-size="72" font-weight="800" letter-spacing="-2">Transita</text>
+    <text x="64" y="220" font-size="25" font-weight="400" fill="#D7E3F2">El transporte público de Panamá,</text>
+    <text x="64" y="254" font-size="25" font-weight="400" fill="#D7E3F2">en un solo mapa.</text>
+  </g>
+
+  <!-- Modos -->
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
+    <rect x="64" y="279" width="82" height="27" rx="13.5" fill="#F5B400"/>
+    <text x="87" y="297" fill="#3D2D00">BUS</text>
+    <rect x="153" y="279" width="94" height="27" rx="13.5" fill="#2B5BFF"/>
+    <text x="174" y="297" fill="#FFFFFF">METRO</text>
+    <rect x="254" y="279" width="140" height="27" rx="13.5" fill="none" stroke="#6B8AAE"/>
+    <text x="273" y="297" fill="#D7E3F2">COMUNIDAD</text>
+  </g>
+
+  <!-- Tarjeta de mapa -->
+  <g filter="url(#shadow)">
+    <rect x="700" y="34" width="450" height="252" rx="24" fill="url(#card)"/>
+  </g>
+  <g clip-path="url(#cardClip)">
+    <!-- Cuadrícula -->
+    <g stroke="#DDE3EA" stroke-width="1">
+      <path d="M700 90 H1150 M700 146 H1150 M700 202 H1150 M700 258 H1150"/>
+      <path d="M760 34 V286 M820 34 V286 M880 34 V286 M940 34 V286 M1000 34 V286 M1060 34 V286 M1120 34 V286"/>
+    </g>
+
+    <!-- Zonas verdes y agua -->
+    <path d="M700 180 C 760 150, 800 210, 860 190 S 960 130, 1020 160 S 1090 230, 1150 200 L1150 286 H700 Z" fill="#E6F4EF" opacity="0.85"/>
+    <path d="M700 230 C 760 210, 810 260, 880 240 S 1000 200, 1060 230 S 1110 270, 1150 250 L1150 286 H700 Z" fill="#DDEBF8" opacity="0.85"/>
+
+    <!-- Rutas -->
+    <path d="M720 240 C 780 220, 800 160, 860 150 S 960 180, 1010 130 S 1080 80, 1130 88" fill="none" stroke="#F5B400" stroke-width="10" stroke-linecap="round"/>
+    <path d="M730 90 C 790 110, 820 160, 880 170 S 980 140, 1030 180 S 1100 230, 1130 210" fill="none" stroke="#2B5BFF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M710 200 C 770 190, 820 230, 880 210 S 970 170, 1020 220 S 1090 250, 1130 240" fill="none" stroke="#0D9488" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 12"/>
+
+    <!-- Paradas -->
+    <g fill="#FFFFFF" stroke="#F5B400" stroke-width="4">
+      <circle cx="780" cy="203" r="7"/>
+      <circle cx="860" cy="150" r="7"/>
+      <circle cx="1010" cy="130" r="7"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#2B5BFF" stroke-width="4">
+      <circle cx="790" cy="105" r="7"/>
+      <circle cx="880" cy="170" r="7"/>
+      <circle cx="1030" cy="180" r="7"/>
+    </g>
+
+    <!-- Ubicación del usuario -->
+    <circle cx="930" cy="208" r="18" fill="#2B5BFF" opacity="0.18"/>
+    <circle cx="930" cy="208" r="8" fill="#2B5BFF" stroke="#FFFFFF" stroke-width="3"/>
+
+    <!-- Etiquetas de ruta -->
+    <g font-family="'JetBrains Mono', monospace" font-weight="700" font-size="13">
+      <rect x="735" y="52" width="62" height="30" rx="8" fill="#F5B400"/>
+      <text x="750" y="72" fill="#3D2D00">E598</text>
+      <rect x="805" y="52" width="48" height="30" rx="8" fill="#2B5BFF"/>
+      <text x="820" y="72" fill="#FFFFFF">L2</text>
+    </g>
+  </g>
+  <rect x="700" y="34" width="450" height="252" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity="0.35"/>
+</svg>

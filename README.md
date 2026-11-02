@@ -2,7 +2,14 @@
 
 ![Transita — El transporte público de Panamá, en un solo mapa](docs/assets/banner.svg)
 
-**El transporte público de Panamá, en un solo mapa.**
+![Estado: en desarrollo](https://img.shields.io/badge/estado-en%20desarrollo-F5B400?style=flat-square)
+![Android: en desarrollo](https://img.shields.io/badge/Android-en%20desarrollo-3DDC84?style=flat-square&logo=android&logoColor=white)
+![iOS: coming soon](https://img.shields.io/badge/iOS-coming%20soon-808080?style=flat-square&logo=apple&logoColor=white)
+![Transporte: bus y Metro](https://img.shields.io/badge/transporte-bus%20%2B%20Metro-2361A8?style=flat-square)
+[![Mapas: OpenStreetMap](https://img.shields.io/badge/mapas-OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org/copyright)
+
+
+**Muévete por Panamá con más claridad.**
 
 Transita busca hacer más sencillo moverse por Panamá. La app reúne información de rutas y paradas para ayudar a las personas a explorar sus opciones y orientarse durante el recorrido.
 
